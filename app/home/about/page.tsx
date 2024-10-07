@@ -1,7 +1,7 @@
-import React from "react";
+import VisaInputs from "@/components/visas/visa-inputs";
 
 const AboutMe = () => {
-  return <div>AboutMe</div>;
+  return <VisaInputs />;
 };
 
 export default AboutMe;
