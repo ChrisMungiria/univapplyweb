@@ -1,7 +1,11 @@
-import React from "react";
+import VisaInputs from "@/components/visas/visa-inputs";
 
 const Visas = () => {
-  return <div>Visas</div>;
+  return (
+    <div>
+      <VisaInputs />
+    </div>
+  );
 };
 
 export default Visas;
