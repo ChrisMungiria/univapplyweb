@@ -81,7 +81,7 @@ const SearchUniversities = () => {
         />
         <CiSearch size={30} />
       </div>
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-2 gap-2 max-w-3xl mx-auto">
         {filteredUniversities.map((university, index) => (
           <div
             className="bg-[#ece6f0] border rounded-md border-slate-400"
