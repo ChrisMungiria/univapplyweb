@@ -59,7 +59,7 @@ const universities = [
 const FeaturedUniversities = () => {
   return (
     <div className="space-y-4">
-      <h1 className="text-center">Our featured universities</h1>
+      <h1 className="text-center capitalize">Our featured universities</h1>
       <div className="overflow-x-scroll flex gap-4">
         {universities.map((university, index) => (
           <div
